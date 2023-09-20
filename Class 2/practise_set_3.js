@@ -45,6 +45,6 @@ const object1 = {
 
 object1.method(callback);
 
-console.log(this === window)
+console.log(this === global)
 
 
