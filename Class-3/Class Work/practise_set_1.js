@@ -31,7 +31,7 @@ for (let i = 0; i < items.length; i++) {
 }
 
 let tags = document.getElementsByTagName("td");
-for (let i = 0; tags.length; i++) {
+for (let i = 0; i < tags.length; i++) {
     tags[i].style.fontWeight = "bolder"
 }
 
