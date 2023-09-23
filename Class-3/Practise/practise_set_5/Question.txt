@@ -1,0 +1,1 @@
+Sortable table: Make the table sortable: clicks on <th> elements should sort it by corresponding column.
