@@ -1,0 +1,59 @@
+.tree-container {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.tree {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.tree ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-left: 1px solid #ccc;
+}
+
+.tree li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding-left: 20px;
+    line-height: 1.5;
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+}
+
+.tree li:last-child {
+    border-bottom: none;
+}
+
+.tree li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #007BFF;
+    /* Blue */
+    border-radius: 50%;
+    transform: translateY(-50%);
+}
+
+.tree .collapsed::before {
+    content: '\25B6';
+    color: #007BFF;
+    /* Blue */
+}
+
+.tree .expanded::before {
+    content: '\25BC';
+    color: #007BFF;
+    /* Blue */
+}

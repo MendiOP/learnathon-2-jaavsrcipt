@@ -1,0 +1,30 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.centered-div {
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 800px
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    cursor: pointer;
+}
+
+tr:nth-child(even) {
+    background-color: #D6EEEE;
+}
