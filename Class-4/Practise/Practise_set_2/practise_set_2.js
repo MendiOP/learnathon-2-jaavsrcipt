@@ -168,13 +168,12 @@ function sumAsync(x, y) {
         });
     });
 }
-let s = performance.now();
+
 sumAsync(5, 7).then((result) => {
     console.log("The result of the addition is:", result);
 });
-let e = performance.now();
 
-console.log("Time take by using promise and delay " + e - s);
+
 
 //using async/await we can increase the readability of the code
 function sleep(delay) {
@@ -196,8 +195,4 @@ async function addNumbers(x, y) {
     }
 }
 
-let s1 = performance.now();
 addNumbers(12, 42);
-let e1 = performance.now();
-
-console.log("Time taken using asysnc and await is " + e1 - s1);
