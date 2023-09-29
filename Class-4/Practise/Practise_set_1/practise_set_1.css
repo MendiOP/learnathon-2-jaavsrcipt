@@ -1,0 +1,11 @@
+.heading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#header {
+    color: brown;
+    font: 40px sans-serif;
+}
